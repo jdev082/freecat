@@ -19,3 +19,7 @@ button {
 	color: black;
 	width: 100%;
 }
+td, tr {
+	background-color: #0e0e0e;
+	color: white
+}
