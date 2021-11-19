@@ -4,7 +4,7 @@ function webload() {
         const wsite = "../settings.html"    
     }
     if (wsite = "fc:home") {
-        let wsite - "../home.html"
+        let wsite = "../home.html"
     }
     document.getElementById('frame').src=wsite;
 }
