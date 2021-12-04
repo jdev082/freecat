@@ -1,0 +1,30 @@
+body {
+	background-color: white;
+}
+
+* {
+	font-family: monospace;
+	color: blue;
+	font-size: 15pt;
+	list-style-type: none;
+	border: none;
+	border-width: 0px;
+	text-align: center;
+}
+
+input {
+	background-color: white;
+	color: black;
+	width: 100%;
+	outline: none;
+}
+
+button {
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+td, tr {
+	background-color: #0e0e0e;
+	color: white
+}
