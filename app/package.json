@@ -1,8 +1,8 @@
 {
   "name": "freecat-electron-adapted",
-  "version": "21.11.2160",
+  "version": "21.12.420",
   "description": "Freecat Adapted Electron Application",
-  "main": "main.js",
+  "main": "main/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
