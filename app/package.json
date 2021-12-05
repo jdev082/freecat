@@ -1,5 +1,5 @@
 {
-  "name": "FreeCat",
+  "name": "freecat",
   "version": "1.0-prerel-2",
   "description": "Freecat Adapted Electron Application",
   "main": "main/main.js",
