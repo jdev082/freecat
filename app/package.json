@@ -2,7 +2,7 @@
   "name": "freecat-electron-adapted",
   "version": "21.11.2160",
   "description": "Freecat Adapted Electron Application",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "start": "electron ."
   },
@@ -15,6 +15,11 @@
   "author": "JaydenDev/Community",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^16.0.0"
+    "electron": "^16.0.0",
+    "electron-prebuilt-compile": "1.8.2",
+    "@electron-forge/maker-deb": "^6.0.0-beta.61",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.61",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
+    "@electron-forge/maker-zip": "^6.0.0-beta.61"
   }
 }
