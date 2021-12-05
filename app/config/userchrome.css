@@ -2,6 +2,11 @@ body {
 	background-color: white;
 }
 
+webview {
+	width: 100%;
+	height: 90%;
+}
+
 * {
 	font-family: monospace;
 	color: blue;
