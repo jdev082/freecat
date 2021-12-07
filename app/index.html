@@ -1,8 +1,16 @@
 <!DOCTYPE html>
-<script src="js/dynamic.js"></script>
-<link rel="stylesheet" href="config/userchrome.css">
-<nav>
-    <input placeholder="Type URL" id="searchbox" name="searchbox" type="url">
-    <button onclick="webload()" id="load">🔎</button>
-</nav>
-<webview id="view" src="home.html" useragent="Freecat/1.1 Chromium/"></webview>
+<html>
+    <head>
+        <title>Freecat</title>
+        <link rel="stylesheet" href="config/userchrome.css">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    </head>
+    <body> 
+        <nav>
+            <input placeholder="Type URL" id="searchbox" name="searchbox" type="url">
+            <button id="load">🔎</button>
+        </nav>
+        <webview id="view" src="home.html" useragent="Freecat/1.1 Chromium/"></webview>
+        <script src="js/dynamic.js"></script>
+    </body>
+</html>
