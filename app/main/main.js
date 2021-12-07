@@ -1,5 +1,5 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, Menu, MenuItem, globalShortcut, shell} = require('electron')
 const path = require('path')
 
 function createWindow () {
@@ -12,7 +12,27 @@ function createWindow () {
       webviewTag: true
     }
   })
-
+  const menu = new Menu()
+  menu.append(new MenuItem({
+    label: 'File',
+    submenu: [{
+      role: 'Help',
+      accelerator: process.platform === 'darwin' ? 'Alt+Cmd+I' : 'Alt+Shift+I',
+      click: () => {  }
+    }]
+  }));
+  app.whenReady().then(() => {
+    globalShortcut.register('CommandOrControl+C', () => {
+      shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
+    });
+    globalShortcut.register("CommandOrControl+W", () => {
+      shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
+    });
+  globalShortcut.register("CommandOrControl+Shift+Esc", () => {
+    shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
+  });
+});
+  Menu.setApplicationMenu(menu);
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
