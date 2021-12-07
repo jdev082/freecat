@@ -15,3 +15,7 @@ Test the rolling constant channel by doing:
 ```bash
 git clone https://github.com/JaydenDev/freecat
 ```
+# Contributors
+@hello-smile6 - For the improved User Interface \
+@webdev03 - For bug fixes, features, and suggesting the use of webviews \
+@ScolderCreations - For bug fixes and suggestions
