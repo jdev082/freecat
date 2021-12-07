@@ -12,15 +12,15 @@ function createWindow () {
       webviewTag: true
     }
   })
-  const menu = new Menu()
-  menu.append(new MenuItem({
-    label: 'File',
-    submenu: [{
-      role: 'Help',
-      accelerator: process.platform === 'darwin' ? 'Alt+Cmd+I' : 'Alt+Shift+I',
-      click: () => {  }
-    }]
-  }));
+//  const menu = new Menu()
+//  menu.append(new MenuItem({
+//    label: 'File',
+//    submenu: [{
+//      role: 'Help',
+//      accelerator: process.platform === 'darwin' ? 'Alt+Cmd+I' : 'Alt+Shift+I',
+//      click: () => {  }
+//    }]
+//  }));
   app.whenReady().then(() => {
     globalShortcut.register('CommandOrControl+C', () => {
       shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
