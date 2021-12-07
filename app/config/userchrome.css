@@ -1,3 +1,4 @@
+@import url("./env.css");
 body, html {
 	background-color: white;
 	padding: 0 !important;
@@ -8,7 +9,7 @@ body, html {
 }
 nav {
 	width: 100vw;
-	height: 20px;
+	height: var(--app-url-bar-size);
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -16,8 +17,8 @@ nav {
 	box-sizing: border-box;
 }
 #searchbox {
-	height: 20px;
-	width: calc(100vw - 20px) !important;
+	height: var(--app-url-bar-size);
+	width: calc(100vw - var(--app-url-bar-size)) !important;
 	padding: 0 !important;
 	border: 0 !important;
 	margin: 0 !important;
@@ -26,9 +27,9 @@ nav {
 	float: left;
 }
 #load {
-	width: 20px !important;
+	width: var(--app-url-bar-size) !important;
 	font-size: 12px;
-	height: 20px;
+	height: var(--app-url-bar-size);
 	box-sizing: border-box;
 	display: block;
 	padding: 0 !important;
@@ -37,7 +38,7 @@ nav {
 }
 webview {
 	width: 100vw;
-	height: calc(100vh - 20px);
+	height: calc(100vh - var(--app-url-bar-size));
 	box-sizing: border-box;
 	overflow-x: visible;
 	overflow-y: visible;
