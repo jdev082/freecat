@@ -5,8 +5,8 @@ const path = require('path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: process.env.freecatWindowWidth ? process.env.freecatWindowWidth : 800,
+    height: process.env.freecatWindowHeight ? process.env.freecatWindowHeight : 600,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       webviewTag: true
