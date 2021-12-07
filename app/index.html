@@ -1,5 +1,8 @@
-<!-- dont make the same mistake, don't put <!DOCTYPE HTML> in an electron app. -->
+<!DOCTYPE html>
 <script src="js/dynamic.js"></script>
 <link rel="stylesheet" href="config/userchrome.css">
-<input type="text" placeholder="🔎 Type to Search" id="searchbox" name="searchbox"> <button onclick="webload()">Go</button>
+<nav>
+    <input placeholder="Type URL" id="searchbox" name="searchbox" type="url">
+    <button onclick="webload()" id="load">🔎</button>
+</nav>
 <webview id="view" src="home.html"></webview>
