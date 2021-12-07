@@ -5,3 +5,4 @@ out
 .DS_Store?
 .Spotlight-V100
 env.css # this is so that any updates to the users config does not affect pull requests
+app/config/env.css # just in case
