@@ -28,4 +28,4 @@ Messing around with PRs \
 Name PRs properly \
 Test PRs before asking for merging
 # Release Progress
-1.1 [!progress](https://progress-bar.dev/44/)
+1.1 [progress](https://progress-bar.dev/44/)
