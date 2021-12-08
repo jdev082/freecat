@@ -18,8 +18,8 @@ Test the rolling constant channel by doing:
 git clone https://github.com/JaydenDev/freecat
 ```
 # Contributors
-@hello-smile6 - For the improved User Interface \
-@webdev03 - For bug fixes, features, and suggesting the use of webviews \
+@hello-smile6 - For the improved User Interface, Bug Fixes, and logos \
+@webdev03 - For bug fixes, features, and suggesting the use of webviews. As well as creating the FreeCat logo \
 @ScolderCreations - For bug fixes and suggestions
 # Contributing
 Please No: \
