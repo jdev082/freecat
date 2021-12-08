@@ -1,5 +1,5 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow, Menu, MenuItem, globalShortcut, shell} = require('electron')
+const {app, BrowserWindow, /* Menu, MenuItem, */ globalShortcut, shell} = require('electron')
 const path = require('path')
 
 function createWindow () {
@@ -10,7 +10,8 @@ function createWindow () {
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       webviewTag: true
-    }
+    },
+    /* icon: path.join(__dirname, "../icons/freecat-2.icns") */
   })
 //  const menu = new Menu()
 //  menu.append(new MenuItem({
@@ -21,7 +22,7 @@ function createWindow () {
 //      click: () => {  }
 //    }]
 //  }));
-  app.whenReady().then(() => {
+  app.on('ready', () => {
     globalShortcut.register('CommandOrControl+C', () => {
       shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
     });
@@ -32,7 +33,7 @@ function createWindow () {
     shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
   });
 });
-  Menu.setApplicationMenu(menu);
+  /* Menu.setApplicationMenu(menu); */
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
@@ -43,7 +44,7 @@ function createWindow () {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.whenReady().then(() => {
+app.on("ready", () => {
   createWindow()
 
   app.on('activate', function () {
