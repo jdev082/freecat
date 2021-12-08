@@ -27,5 +27,7 @@ Malicious Code \
 Messing around with PRs \ 
 Name PRs properly \
 Test PRs before asking for merging
+Also, please use Prettier. In the `app/` directory, run `npm run check` first to see if you need to format. If you need to format, then do `npm run format` to go with the Prettier styling for Freecat.
+
 # Release Progress
 ![progress](https://progress-bar.dev/44/?scale=2000?title=1.1)
