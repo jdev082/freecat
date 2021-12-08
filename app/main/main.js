@@ -19,22 +19,12 @@ function createWindow() {
       ? process.env.freecatWindowHeight
       : 600,
     webPreferences: {
-<<<<<<< HEAD
-      preload: path.join(__dirname, 'preload.js'),
-<<<<<<< HEAD
+      icon: path.join(__dirname, "./icons/seconds.svg"),
       webviewTag: true,
-    },
-    icon: path.join(__dirname, "./icons/seconds.svg")
-=======
-      webviewTag: true
+      preload: path.join(__dirname, "preload.js")
     }
->>>>>>> cd852ea8c1cdbf2a12dd62b61bdf707da27d573a
-=======
-      preload: path.join(__dirname, "preload.js"),
-      webviewTag: true,
-    },
->>>>>>> d115aca483abd03044bf4ae715cd17e155346a80
-  })
+  });
+
   //  const menu = new Menu()
   //  menu.append(new MenuItem({
   //    label: 'File',
