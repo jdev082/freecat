@@ -1,13 +1,25 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow, Menu, MenuItem, globalShortcut, shell} = require('electron')
-const path = require('path')
+const {
+  app,
+  BrowserWindow,
+  Menu,
+  MenuItem,
+  globalShortcut,
+  shell,
+} = require("electron")
+const path = require("path")
 
-function createWindow () {
+function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: process.env.freecatWindowWidth ? process.env.freecatWindowWidth : 800,
-    height: process.env.freecatWindowHeight ? process.env.freecatWindowHeight : 600,
+    width: process.env.freecatWindowWidth
+      ? process.env.freecatWindowWidth
+      : 800,
+    height: process.env.freecatWindowHeight
+      ? process.env.freecatWindowHeight
+      : 600,
     webPreferences: {
+<<<<<<< HEAD
       preload: path.join(__dirname, 'preload.js'),
 <<<<<<< HEAD
       webviewTag: true,
@@ -17,17 +29,22 @@ function createWindow () {
       webviewTag: true
     }
 >>>>>>> cd852ea8c1cdbf2a12dd62b61bdf707da27d573a
+=======
+      preload: path.join(__dirname, "preload.js"),
+      webviewTag: true,
+    },
+>>>>>>> d115aca483abd03044bf4ae715cd17e155346a80
   })
-//  const menu = new Menu()
-//  menu.append(new MenuItem({
-//    label: 'File',
-//    submenu: [{
-//      role: 'Help',
-//      accelerator: process.platform === 'darwin' ? 'Alt+Cmd+I' : 'Alt+Shift+I',
-//      click: () => {  }
-//    }]
-//  }));
-/* Rickroll. Do not uncomment.
+  //  const menu = new Menu()
+  //  menu.append(new MenuItem({
+  //    label: 'File',
+  //    submenu: [{
+  //      role: 'Help',
+  //      accelerator: process.platform === 'darwin' ? 'Alt+Cmd+I' : 'Alt+Shift+I',
+  //      click: () => {  }
+  //    }]
+  //  }));
+  /* Rickroll. Do not uncomment.
   app.on('ready', () => {
     globalShortcut.register('CommandOrControl+C', () => {
       shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
@@ -42,7 +59,7 @@ function createWindow () {
 */
   /* Menu.setApplicationMenu(menu); */
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile("index.html")
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
@@ -54,7 +71,7 @@ function createWindow () {
 app.whenReady().then(() => {
   createWindow()
 
-  app.on('activate', function () {
+  app.on("activate", function () {
     // On macOS it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
@@ -64,8 +81,8 @@ app.whenReady().then(() => {
 // Quit when all windows are closed, except on macOS. There, it's common
 // for applications and their menu bar to stay active until the user quits
 // explicitly with Cmd + Q.
-app.on('window-all-closed', function () {
-  if (process.platform !== 'darwin') app.quit()
+app.on("window-all-closed", function () {
+  if (process.platform !== "darwin") app.quit()
 })
 
 // In this file you can include the rest of your app's specific main process

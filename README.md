@@ -31,4 +31,9 @@ Malicious Code \
 Messing around with PRs \ 
 Name PRs properly \
 Test PRs before asking for merging
+<<<<<<< HEAD
 >>>>>>> cd852ea8c1cdbf2a12dd62b61bdf707da27d573a
+=======
+
+Also, please use Prettier. In the `app/` directory, run `npm run check` first to see if you need to format. If you need to format, then do `npm run format` to go with the Prettier styling for Freecat.
+>>>>>>> d115aca483abd03044bf4ae715cd17e155346a80
