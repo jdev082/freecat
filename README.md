@@ -39,8 +39,9 @@ Malicious Code \
 Messing around with PRs \
 Name PRs properly \
 Test PRs before asking for merging
-Also, please use Prettier. Run `npm run check` first to see if you need to format. If you need to format, then do `npm run format` to go with the Prettier styling for Freecat.
 
+# Clean your code
+First, run ```npm run check``` to confirm that formatting is needed. Then run ```npm run format``` in your shell to format your code.
 # Release Progress
 
 ![progress](https://progress-bar.dev/44/?scale=2000?title=1.1)
