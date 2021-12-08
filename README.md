@@ -25,3 +25,5 @@ Malicious Code \
 Messing around with PRs \ 
 Name PRs properly \
 Test PRs before asking for merging
+
+Also, please use Prettier. 
