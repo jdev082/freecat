@@ -4,9 +4,11 @@ The user interface is entirely rendered as regular HTML, backed by Electron
 ```bash
 cd app
 npm install
-cd ..
-./run-linux.sh (or the script depending on platform)
 ```
+## Running
+
+`cd` into `app` the run `npm start`
+
 # Builds
 [Download Here](https://dl.jaydendev.repl.co/freecat)
 Or check the releases tab.
@@ -16,8 +18,8 @@ Test the rolling constant channel by doing:
 git clone https://github.com/JaydenDev/freecat
 ```
 # Contributors
-@hello-smile6 - For the improved User Interface \
-@webdev03 - For bug fixes, features, and suggesting the use of webviews \
+@hello-smile6 - For the improved User Interface, Bug Fixes, and logos \
+@webdev03 - For bug fixes, features, and suggesting the use of webviews. As well as creating the FreeCat logo \
 @ScolderCreations - For bug fixes and suggestions
 # Contributing
 Please No: \
@@ -25,5 +27,7 @@ Malicious Code \
 Messing around with PRs \ 
 Name PRs properly \
 Test PRs before asking for merging
-
 Also, please use Prettier. In the `app/` directory, run `npm run check` first to see if you need to format. If you need to format, then do `npm run format` to go with the Prettier styling for Freecat.
+
+# Release Progress
+1.1 ![progress](https://progress-bar.dev/44/)
