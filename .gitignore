@@ -1,6 +1,7 @@
 node_modules
 git.old
 out
+app/out/*
 .DS_Store
 .DS_Store?
 .Spotlight-V100
