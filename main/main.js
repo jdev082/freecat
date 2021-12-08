@@ -21,9 +21,9 @@ function createWindow() {
     webPreferences: {
       icon: path.join(__dirname, "./icons/seconds.svg"),
       webviewTag: true,
-      preload: path.join(__dirname, "preload.js")
-    }
-  });
+      preload: path.join(__dirname, "preload.js"),
+    },
+  })
 
   //  const menu = new Menu()
   //  menu.append(new MenuItem({
