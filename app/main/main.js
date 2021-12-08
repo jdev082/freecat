@@ -32,7 +32,6 @@ function createWindow () {
     shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
   });
 });
-  Menu.setApplicationMenu(menu);
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
