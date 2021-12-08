@@ -1,0 +1,11 @@
+# Avoid the binaries
+out
+
+# Prettier already ignores node_modules but just to make sure
+node_modules
+
+# Increase speed of prettier checking as package-lock is big
+package-lock.json
+
+# Don't touch the license
+LICENSE

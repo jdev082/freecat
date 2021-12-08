@@ -11,6 +11,7 @@ const path = require("path")
 
 function createWindow() {
   // Create the browser window.
+  console.log(__dirname)
   const mainWindow = new BrowserWindow({
     width: process.env.freecatWindowWidth
       ? process.env.freecatWindowWidth
@@ -47,7 +48,7 @@ function createWindow() {
 */
   /* Menu.setApplicationMenu(menu); */
   // and load the index.html of the app.
-  mainWindow.loadFile("index.html")
+  mainWindow.loadFile("src/index.html")
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
