@@ -26,13 +26,14 @@ jobs:
       - name: Format prettier
         run: cd app && npm run format
 
-      - name: Setup Git config
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Format with Prettier
+      
+      - name: "Run if changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes!"
 
-      - name: commit
-        run: |
-          git add .
-          git commit -m "Format with Prettier"
-          git push origin HEAD:${{ github.head_ref }}
+      - name: "Run if no changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No Changes!"
