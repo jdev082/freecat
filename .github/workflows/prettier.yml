@@ -23,17 +23,5 @@ jobs:
       - name: Install dependencies
         run: cd app && npm install
 
-      - name: Format prettier
-        run: cd app && npm run format
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Format with Prettier
-      
-      - name: "Run if changes have been detected"
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        run: echo "Changes!"
-
-      - name: "Run if no changes have been detected"
-        if: steps.auto-commit-action.outputs.changes_detected == 'false'
-        run: echo "No Changes!"
+      - name: Check prettier
+        run: cd app && npm run check
