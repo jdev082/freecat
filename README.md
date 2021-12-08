@@ -19,3 +19,9 @@ git clone https://github.com/JaydenDev/freecat
 @hello-smile6 - For the improved User Interface \
 @webdev03 - For bug fixes, features, and suggesting the use of webviews \
 @ScolderCreations - For bug fixes and suggestions
+# Contributing
+Please No: \
+Malicious Code \
+Messing around with PRs \ 
+Name PRs properly \
+Test PRs before asking for merging
