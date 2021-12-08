@@ -22,15 +22,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Go into app/ directory
-        run: cd app
-
       # Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: cd app && npm install
 
       - name: Format prettier
-        run: npm run format
+        run: cd app && npm run format
 
       - name: Setup Git config
         run: |
