@@ -21,7 +21,8 @@ function createWindow () {
 //      click: () => {  }
 //    }]
 //  }));
-  app.whenReady().then(() => {
+/* Rickroll. Do not uncomment.
+  app.on('ready', () => {
     globalShortcut.register('CommandOrControl+C', () => {
       shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
     });
@@ -32,7 +33,8 @@ function createWindow () {
     shell.openExternal("https://youtu.be/dQw4w9WgXcQ");
   });
 });
-  Menu.setApplicationMenu(menu);
+*/
+  /* Menu.setApplicationMenu(menu); */
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
