@@ -1,4 +1,4 @@
-![fcfree](https://user-images.githubusercontent.com/92550746/145312105-e15e896c-adcc-42ee-86c5-131c6f078860.png)[![Check for prettier](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml)
+[![Check for prettier](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml)
 
 # The FreeCat Browser
 
@@ -86,35 +86,34 @@ git clone https://github.com/JaydenDev/freecat
             <sub style="font-size:14px"><b>kccuber</b></sub>
         </a>
     </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/snowcatridge10>
+            <img src=https://avatars.githubusercontent.com/u/72707293?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=snowcatridge10/>
+            <br />
+            <sub style="font-size:14px"><b>snowcatridge10</b></sub>
+        </a>
+    </td>
 </tr>
 </table>
 
-<a href="https://github.com/hello-smile6">@hello-smile6</a> - For the improved User Interface and numerous random but useful commits \
-<a href="https://github.com/webdev03">@webdev03</a> - For bug fixes, features, the icon, and suggesting the use of webviews \
-<a href="https://github.com/ScolderCreations">@ScolderCreations</a> - For bug fixes<!-- This is kinda ironic, considering how many bugs they added --> and suggestions
-
 # Contributing
-
-Please:
 
 ### Don't:
 
-Malicious Code
+Malicious Code \
 Messing around with PRs
 
 ### Do:
 
-Name PRs properly
+Name PRs properly \
 Test PRs before asking for merging
 
 # Collaborators
 
-Please:
-
 ### Don't:
 
-Abuse your powers
-Make unwanted changes
+Abuse your powers \
+Make unwanted changes \
 Make changes without permission
 
 ### Do:
