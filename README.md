@@ -48,4 +48,4 @@ First, run `npm run check`. To confirm that formatting is needed. Then run `npm 
 
 # Release Progress
 
-![progress](https://progress-bar.dev/12/?scale=2000?title=1.1)
+![progress](https://progress-bar.dev/12/?title=1.1)
