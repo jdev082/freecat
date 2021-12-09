@@ -24,7 +24,7 @@ function createWindow() {
           ? path.join(__dirname, "./icons/seconds.ico")
           : path.join(__dirname, "./icons/seconds.svg"),
       webviewTag: true,
-      preload: path.join(__dirname, "preload.js"),
+      preload: path.join(__dirname, "./preload.js"),
     },
   })
 
