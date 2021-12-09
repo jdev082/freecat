@@ -86,6 +86,13 @@ git clone https://github.com/JaydenDev/freecat
             <sub style="font-size:14px"><b>kccuber</b></sub>
         </a>
     </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/snowcatridge10>
+            <img src=https://avatars.githubusercontent.com/u/72707293?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=snowcatridge10/>
+            <br />
+            <sub style="font-size:14px"><b>snowcatridge10</b></sub>
+        </a>
+    </td>
 </tr>
 </table>
 
