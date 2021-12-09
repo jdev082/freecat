@@ -1,5 +1,4 @@
 name: Check for prettier
-
 # Controls when the workflow will run
 on:
   pull_request:
