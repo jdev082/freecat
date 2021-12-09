@@ -15,6 +15,7 @@ npm install
 ## Running
 
 `npm start`
+
 # Builds
 
 [Download Here](https://dl.jaydendev.repl.co/freecat)
