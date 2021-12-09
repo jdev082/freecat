@@ -30,6 +30,7 @@ git clone https://github.com/JaydenDev/freecat
 ```
 
 # Contributors
+
 <a href="https://github.com/hello-smile6">@hello-smile6</a> - For the improved User Interface and numerous random but useful commits \
 <a href="https://github.com/webdev03">@webdev03</a> - For bug fixes, features, the icon, and suggesting the use of webviews \
 <a href="https://github.com/ScolderCreations">@ScolderCreations</a> - For bug fixes<!-- This is kinda ironic, considering how many bugs they added --> and suggestions
@@ -37,21 +38,29 @@ git clone https://github.com/JaydenDev/freecat
 # Contributing
 
 Please:
-### Don't: 
-Malicious Code 
-Messing around with PRs 
+
+### Don't:
+
+Malicious Code
+Messing around with PRs
+
 ### Do:
-Name PRs properly 
+
+Name PRs properly
 Test PRs before asking for merging
 
 # Collaborators
 
 Please:
-### Don't: 
+
+### Don't:
+
 Abuse your powers
 Make unwanted changes
 Make changes without permission
+
 ### Do:
+
 Ask before merging PRs
 
 # Clean your code
