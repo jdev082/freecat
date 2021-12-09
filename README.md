@@ -1,4 +1,4 @@
-![fcfree](https://user-images.githubusercontent.com/92550746/145312105-e15e896c-adcc-42ee-86c5-131c6f078860.png)[![Check for prettier](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml)
+[![Check for prettier](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml)
 
 # The FreeCat Browser
 
