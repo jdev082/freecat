@@ -21,7 +21,7 @@ jobs:
 
       # Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Check prettier
         run: npm run check
@@ -36,7 +36,7 @@ jobs:
 
       # Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Check ESLint
         run: npm run eslint
