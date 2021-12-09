@@ -4,6 +4,8 @@
 
 The user interface is entirely rendered as regular HTML, backed by Electron
 
+![image](https://user-images.githubusercontent.com/92550746/145330664-a32ab839-84e4-4a27-9581-25d3248b8b4e.png)
+
 ## Installation
 
 ```bash
