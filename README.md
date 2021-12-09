@@ -52,7 +52,7 @@ Ask before merging PRs
 
 # Clean your code
 
-First, run `npm run check`. To confirm that formatting is needed. Then run `npm run formatter` in your shell to format your code. It will automatically commit, and your clean sleek code will be submitted.
+First, run `npm run check`. To confirm that formatting is needed. Then run `npm run format` in your shell to format your code. It will automatically commit, and your clean sleek code will be submitted.
 
 # Release Progress
 
