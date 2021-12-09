@@ -39,18 +39,30 @@ git clone https://github.com/JaydenDev/freecat
 
 # Contributing
 
-Please No: \
-Malicious Code \
-Messing around with PRs \
-Name PRs properly \
+Please:
+
+### Don't:
+
+Malicious Code
+Messing around with PRs
+
+### Do:
+
+Name PRs properly
 Test PRs before asking for merging
 
 # Collaborators
 
-Please don't: \
-Abuse your powers \
-Make unwanted changes \
-Make changes without permission \
+Please:
+
+### Don't:
+
+Abuse your powers
+Make unwanted changes
+Make changes without permission
+
+### Do:
+
 Ask before merging PRs
 
 # Clean your code
