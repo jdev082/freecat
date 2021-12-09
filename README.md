@@ -16,6 +16,11 @@ npm install
 
 `npm start`
 
+# Builds
+
+[Download Here](https://dl.jaydendev.repl.co/freecat)
+Or check the releases tab.
+
 # Constant Channel
 
 Test the rolling constant channel by doing:
