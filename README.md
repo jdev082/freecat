@@ -42,6 +42,14 @@ Messing around with PRs \
 Name PRs properly \
 Test PRs before asking for merging
 
+# Collaborators
+
+Please don't: \
+Abuse your powers \
+Make unwanted changes \
+Make changes without permission \
+Ask before merging PRs
+
 # Clean your code
 
 First, run `npm run check`. To confirm that formatting is needed. Then run `npm run formatter` in your shell to format your code. It will automatically commit, and your clean sleek code will be submitted.
