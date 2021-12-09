@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- given-names: "JaydenDev"
+title: "Freecat"
+version: 1.0.1
+date-released: 2021-12-8
+url: "https://github.com/JaydenDev/freecat"
