@@ -19,10 +19,12 @@ function createWindow() {
       ? process.env.freecatWindowHeight
       : 600,
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
+      icon: path.join(__dirname, "./icons/seconds.svg"),
       webviewTag: true,
+      preload: path.join(__dirname, "preload.js"),
     },
   })
+
   //  const menu = new Menu()
   //  menu.append(new MenuItem({
   //    label: 'File',
