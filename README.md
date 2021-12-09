@@ -7,14 +7,14 @@ The user interface is entirely rendered as regular HTML, backed by Electron
 ## Installation
 
 ```bash
-cd app
+git clone https://github.com/JaydenDev/freecat/
+cd freecat
 npm install
 ```
 
 ## Running
 
-`cd` into `app` the run `npm start`
-
+`npm start`
 # Builds
 
 [Download Here](https://dl.jaydendev.repl.co/freecat)
