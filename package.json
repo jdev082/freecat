@@ -1,12 +1,15 @@
 {
   "name": "freecat",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Freecat Adapted Electron Application",
   "main": "main/main.js",
   "scripts": {
     "start": "electron .",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "check": "prettier --check .",
+    "format": "prettier --write .",
+    "eslint": "eslint ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -23,7 +26,10 @@
     "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
     "@electron-forge/maker-zip": "^6.0.0-beta.61",
     "electron": "^16.0.0",
-    "electron-prebuilt-compile": "1.8.2"
+    "electron-prebuilt-compile": "^1.8.2",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.5.1"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
