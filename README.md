@@ -1,4 +1,5 @@
 ![fcfree](https://user-images.githubusercontent.com/92550746/145312105-e15e896c-adcc-42ee-86c5-131c6f078860.png)
+
 # The FreeCat Browser
 
 The user interface is entirely rendered as regular HTML, backed by Electron
