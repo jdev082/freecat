@@ -31,6 +31,7 @@ git clone https://github.com/JaydenDev/freecat
 
 # Contributors
 
+# Top contributors
 ## Top contributor: <a href="https://github.com/hello-smile6">@hello-smile6</a>
 
 <a href="https://github.com/hello-smile6">@hello-smile6</a> - For the improved User Interface and numerous random but useful commits \
