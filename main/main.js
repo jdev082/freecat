@@ -19,7 +19,10 @@ function createWindow() {
       ? process.env.freecatWindowHeight
       : 600,
     webPreferences: {
-      icon: path.join(__dirname, "./icons/seconds.svg"),
+      icon:
+        process.platform == "win32"
+          ? path.join(__dirname, "./icons/seconds.ico")
+          : path.join(__dirname, "./icons/seconds.svg"),
       webviewTag: true,
       preload: path.join(__dirname, "preload.js"),
     },
