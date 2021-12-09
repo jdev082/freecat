@@ -2,9 +2,9 @@
   "name": "freecat",
   "version": "1.0.0",
   "description": "Freecat Adapted Electron Application",
-  "main": "main/main.js",
+  "main": "app/main/main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron app/",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "check": "prettier --check .",
