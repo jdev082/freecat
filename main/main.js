@@ -6,11 +6,28 @@ const {
   MenuItem,
   globalShortcut,
   shell,
+  nativeImage,
+  // nativeTheme,
 } = require("electron")
+require("update-electron-app")({
+  repo: "JaydenDev/freecat",
+  updateInterval: "5 minutes",
+  logger: require("electron-log"),
+})
+// Since dark mode's not done, nag at everyone to do it
+
+// if (!nativeTheme.shouldUseDarkColors) {
+// console.warn("Dark theme not done yet. Let's change that!")
+// }
 const path = require("path")
 
 function createWindow() {
   // Create the browser window.
+  var image = nativeImage.createFromPath(__dirname + "./icon.png")
+  // where public folder on the root dir
+
+  image.setTemplateImage(true)
+
   const mainWindow = new BrowserWindow({
     width: process.env.freecatWindowWidth
       ? process.env.freecatWindowWidth
@@ -19,10 +36,7 @@ function createWindow() {
       ? process.env.freecatWindowHeight
       : 600,
     webPreferences: {
-      icon:
-        process.platform == "win32"
-          ? path.join(__dirname, "./icons/seconds.ico")
-          : path.join(__dirname, "./icons/seconds.svg"),
+      icon: image,
       webviewTag: true,
       preload: path.join(__dirname, "./preload.js"),
     },
@@ -52,7 +66,7 @@ function createWindow() {
 */
   /* Menu.setApplicationMenu(menu); */
   // and load the index.html of the app.
-  mainWindow.loadFile("index.html")
+  mainWindow.loadURL(path.join(__dirname, "../index.html"))
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
@@ -61,17 +75,16 @@ function createWindow() {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.whenReady().then(() => {
+app.on("ready", () => {
   createWindow()
-
-  app.on("activate", function () {
-    // On macOS it's common to re-create a window in the app when the
-    // dock icon is clicked and there are no other windows open.
-    if (BrowserWindow.getAllWindows().length === 0) createWindow()
-    mainWindow.setAppDetails({
-      appId: Math.random().toString(),
-      appIconPath: "./",
-    })
+})
+app.on("activate", function () {
+  // On macOS it's common to re-create a window in the app when the
+  // dock icon is clicked and there are no other windows open.
+  if (BrowserWindow.getAllWindows().length === 0) createWindow()
+  mainWindow.setAppDetails({
+    appId: Math.random().toString(),
+    appIconPath: "./icon.png",
   })
 })
 
