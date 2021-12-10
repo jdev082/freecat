@@ -61,7 +61,7 @@ function createWindow() {
 */
   /* Menu.setApplicationMenu(menu); */
   // and load the index.html of the app.
-  mainWindow.loadFile("index.html")
+  mainWindow.loadURL(path.join(__dirname, "../index.html"))
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
