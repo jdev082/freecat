@@ -9,6 +9,11 @@ const {
   nativeImage,
   // nativeTheme,
 } = require("electron")
+require("update-electron-app")({
+  repo: "JaydenDev/freecat",
+  updateInterval: "5 minutes",
+  logger: require("electron-log"),
+})
 // Since dark mode's not done, nag at everyone to do it
 
 // if (!nativeTheme.shouldUseDarkColors) {

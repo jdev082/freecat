@@ -32,8 +32,10 @@
     "prettier": "2.5.1"
   },
   "dependencies": {
+    "electron-log": "^4.4.1",
     "electron-squirrel-startup": "^1.0.0",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "update-electron-app": "^2.0.1"
   },
   "config": {
     "forge": {
