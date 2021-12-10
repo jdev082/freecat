@@ -10,9 +10,9 @@ const {
   nativeTheme,
 } = require("electron")
 // Since dark mode's not done, nag at everyone to do it
-var isDarkTheme = nativeTheme.shouldUseDarkColors
-if (!isDarkTheme) {
-  console.warn("Dark theme not done yet.")
+
+if (!nativeTheme.shouldUseDarkColors) {
+  console.warn("Dark theme not done yet. Let's change that!")
 }
 const path = require("path")
 
