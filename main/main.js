@@ -6,11 +6,23 @@ const {
   MenuItem,
   globalShortcut,
   shell,
+  nativeImage,
+  nativeTheme,
 } = require("electron")
+// Since dark mode's not done, nag at everyone to do it
+var isDarkTheme = nativeTheme.shouldUseDarkColors
+if (!isDarkTheme) {
+  console.warn("Dark theme not done yet.")
+}
 const path = require("path")
 
 function createWindow() {
   // Create the browser window.
+  var image = nativeImage.createFromPath(__dirname + "./icon.png")
+  // where public folder on the root dir
+
+  image.setTemplateImage(true)
+
   const mainWindow = new BrowserWindow({
     width: process.env.freecatWindowWidth
       ? process.env.freecatWindowWidth
@@ -19,10 +31,7 @@ function createWindow() {
       ? process.env.freecatWindowHeight
       : 600,
     webPreferences: {
-      icon:
-        process.platform == "win32"
-          ? path.join(__dirname, "./icons/seconds.ico")
-          : path.join(__dirname, "./icons/seconds.svg"),
+      icon: image,
       webviewTag: true,
       preload: path.join(__dirname, "./preload.js"),
     },
