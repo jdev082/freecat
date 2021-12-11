@@ -22,7 +22,6 @@ jobs:
 
       - name: Check prettier
         run: npm run check
-<<<<<<< HEAD
   #eslint:
   # The type of runner that the job will run on
   # runs-on: ubuntu-latest
@@ -38,20 +37,3 @@ jobs:
 
   #- name: Check ESLint
   # run: npm run eslint
-=======
-  eslint:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Install dependencies
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Check ESLint
-        run: npm run eslint
->>>>>>> parent of 42e233b (Merge branch 'main' of https://github.com/JaydenDev/freecat)
