@@ -1,5 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Freecat</title>
+    <link rel="stylesheet" href="config/userchrome.css" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+    <link href="icons/seconds-32x32.svg" rel="shortcut icon" />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <input
+        placeholder="Type URL"
+        id="searchbox"
+        name="searchbox"
+        type="url"
+      />
+      <button id="load"><i class="fa fa-search"></i></button>
+    </nav>
+    <webview id="view" src="home.html"></webview>
+    <script src="js/dynamic.js"></script>
+  </body>
+</html>
 
-<script src="js/dynamic.js"></script>
-<link rel="stylesheet" href="config/userchrome.css">
-<input type="text" placeholder="🔎 Type to Search" id="searchbox" name="searchbox"> <button onclick="webload()">Go</button>
-<webview id="view" src="home.html"></webview>
