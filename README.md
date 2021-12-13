@@ -1,11 +1,9 @@
-
 [![Check for prettier](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 ![License](https://camo.githubusercontent.com/3dbcfa4997505c80ef928681b291d33ecfac2dabf563eb742bb3e269a5af909c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f496c65726961796f2f6d61726b646f776e2d6261646765733f7374796c653d666f722d7468652d6261646765)
-
 
 # The FreeCat Browser
 
@@ -60,7 +58,9 @@ git clone https://github.com/JaydenDev/freecat
             <img src=https://avatars.githubusercontent.com/u/92550746?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=JaydenDev/>
             <br />
             <sub style="font-size:14px"><b>JaydenDev</b></sub>
->>>>>>> parent of 71385e9 (Unstable (#81))
+
+> > > > > > > parent of 71385e9 (Unstable (#81))
+
         <a href=https://github.com/JaydenDev>
             <img src=https://avatars.githubusercontent.com/u/92550746?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=JaydenDev/>
             <br />
@@ -102,6 +102,7 @@ git clone https://github.com/JaydenDev/freecat
             <sub style="font-size:14px"><b>MystPi</b></sub>
         </a>
     </td>
+
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
