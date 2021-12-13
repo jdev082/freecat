@@ -1,45 +1,154 @@
-# electron-quick-start
+[![Check for prettier](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/JaydenDev/freecat/actions/workflows/checks.yml)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![License](https://camo.githubusercontent.com/3dbcfa4997505c80ef928681b291d33ecfac2dabf563eb742bb3e269a5af909c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f496c65726961796f2f6d61726b646f776e2d6261646765733f7374796c653d666f722d7468652d6261646765)
 
-**Clone and run for a quick way to see Electron in action.**
+# The FreeCat Browser
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) within the Electron documentation.
+The user interface is entirely rendered as regular HTML, backed by Electron
 
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
+![image](https://user-images.githubusercontent.com/92550746/145330664-a32ab839-84e4-4a27-9581-25d3248b8b4e.png)
 
-A basic Electron application needs just these files:
-
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
-
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## Installation
 
 ```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
+git clone https://github.com/JaydenDev/freecat/
+cd freecat
 npm install
-# Run the app
-npm start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+## Running
 
-## Resources for Learning Electron
+`npm start`
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+# Builds
 
-## License
+[Download Here](https://dl.jaydendev.repl.co/freecat)
+Or check the releases tab.
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+# Constant Channel
+
+Test the rolling constant channel by doing:
+
+```bash
+git clone https://github.com/JaydenDev/freecat
+```
+
+# Contributors
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/hello-smile6>
+            <img src=https://avatars.githubusercontent.com/u/73048226?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=hello-smile6/>
+            <br />
+            <sub style="font-size:14px"><b>hello-smile6</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/JaydenDev>
+            <img src=https://avatars.githubusercontent.com/u/92550746?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=JaydenDev/>
+            <br />
+            <sub style="font-size:14px"><b>JaydenDev</b></sub>
+        <a href=https://github.com/JaydenDev>
+            <img src=https://avatars.githubusercontent.com/u/92550746?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=JaydenDev/>
+            <br />
+            <sub style="font-size:14px"><b>JaydenDev</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/hello-smile6>
+            <img src=https://avatars.githubusercontent.com/u/73048226?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=hello-smile6/>
+            <br />
+            <sub style="font-size:14px"><b>hello-smile6</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/webdev03>
+            <img src=https://avatars.githubusercontent.com/u/75148774?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=webdev03/>
+            <br />
+            <sub style="font-size:14px"><b>webdev03</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ninjamar>
+            <img src=https://avatars.githubusercontent.com/u/70116773?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ninjamar/>
+            <br />
+            <sub style="font-size:14px"><b>ninjamar</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ScolderCreations>
+            <img src=https://avatars.githubusercontent.com/u/69083943?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Scolder/>
+            <br />
+            <sub style="font-size:14px"><b>Scolder</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/snowcatridge10>
+            <img src=https://avatars.githubusercontent.com/u/72707293?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=snowcatridge10/>
+            <br />
+            <sub style="font-size:14px"><b>snowcatridge10</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/MystPi>
+            <img src=https://avatars.githubusercontent.com/u/86574651?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=MystPi/>
+            <br />
+            <sub style="font-size:14px"><b>MystPi</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/kccuber-scratch>
+            <img src=https://avatars.githubusercontent.com/u/92891642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=kccuber/>
+            <br />
+            <sub style="font-size:14px"><b>kccuber</b></sub>
+        </a>
+  </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/snowcatridge10>
+            <img src=https://avatars.githubusercontent.com/u/72707293?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=snowcatridge10/>
+            <br />
+            <sub style="font-size:14px"><b>snowcatridge10</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
+
+# Contributing
+
+### Don't:
+
+Malicious Code \
+Messing around with PRs
+
+### Do:
+
+Name PRs properly \
+Test PRs before asking for merging
+
+# Collaborators
+
+### Don't:
+
+Abuse your powers \
+Make unwanted changes \
+Make changes without permission
+
+### Do:
+
+Ask before merging PRs
+
+# Clean your code
+
+First, run `npm run check`. To confirm that formatting is needed. Then run `npm run format` in your shell to format your code. It will automatically commit, and your clean sleek code will be submitted.
+
+# Release Progress
+
+![progress](https://progress-bar.dev/0/?title=2.0)
