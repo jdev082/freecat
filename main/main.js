@@ -7,6 +7,18 @@ const {
   globalShortcut,
   shell,
   nativeImage,
+  // nativeTheme,
+} = require("electron")
+require("update-electron-app")({
+  repo: "JaydenDev/freecat",
+  updateInterval: "5 minutes",
+  logger: require("electron-log"),
+})
+// Since dark mode's not done, nag at everyone to do it
+
+// if (!nativeTheme.shouldUseDarkColors) {
+// console.warn("Dark theme not done yet. Let's change that!")
+// }
   nativeTheme,
 } = require("electron")
 // Since dark mode's not done, nag at everyone to do it
@@ -61,7 +73,7 @@ function createWindow() {
 */
   /* Menu.setApplicationMenu(menu); */
   // and load the index.html of the app.
-  mainWindow.loadFile("index.html")
+  mainWindow.loadURL(path.join(__dirname, "../index.html"))
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
@@ -70,17 +82,17 @@ function createWindow() {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
+app.on("ready", () => {
 app.on("ready").then(() => {
   createWindow()
-
-  app.on("activate", function () {
-    // On macOS it's common to re-create a window in the app when the
-    // dock icon is clicked and there are no other windows open.
-    if (BrowserWindow.getAllWindows().length === 0) createWindow()
-    mainWindow.setAppDetails({
-      appId: Math.random().toString(),
-      appIconPath: "./",
-    })
+})
+app.on("activate", function () {
+  // On macOS it's common to re-create a window in the app when the
+  // dock icon is clicked and there are no other windows open.
+  if (BrowserWindow.getAllWindows().length === 0) createWindow()
+  mainWindow.setAppDetails({
+    appId: Math.random().toString(),
+    appIconPath: "./icon.png",
   })
 })
 
