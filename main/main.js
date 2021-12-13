@@ -6,11 +6,23 @@ const {
   MenuItem,
   globalShortcut,
   shell,
+  nativeImage,
+  nativeTheme,
 } = require("electron")
+// Since dark mode's not done, nag at everyone to do it
+var isDarkTheme = nativeTheme.shouldUseDarkColors
+if (!isDarkTheme) {
+  console.warn("Dark theme not done yet.")
+}
 const path = require("path")
 
 function createWindow() {
   // Create the browser window.
+  var image = nativeImage.createFromPath(__dirname + "./icon.png")
+  // where public folder on the root dir
+
+  image.setTemplateImage(true)
+
   const mainWindow = new BrowserWindow({
     width: process.env.freecatWindowWidth
       ? process.env.freecatWindowWidth
@@ -19,12 +31,9 @@ function createWindow() {
       ? process.env.freecatWindowHeight
       : 600,
     webPreferences: {
-      icon:
-        process.platform == "win32"
-          ? path.join(__dirname, "./icons/seconds.ico")
-          : path.join(__dirname, "./icons/seconds.svg"),
+      icon: image,
       webviewTag: true,
-      preload: path.join(__dirname, "preload.js"),
+      preload: path.join(__dirname, "./preload.js"),
     },
   })
 
@@ -61,7 +70,7 @@ function createWindow() {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.whenReady().then(() => {
+app.on("ready").then(() => {
   createWindow()
 
   app.on("activate", function () {
@@ -79,7 +88,7 @@ app.whenReady().then(() => {
 // for applications and their menu bar to stay active until the user quits
 // explicitly with Cmd + Q.
 app.on("window-all-closed", function () {
-  if (process.platform !== "darwin") app.quit()
+  if (process.platform == "darwin") app.quit()
 })
 
 // In this file you can include the rest of your app's specific main process
