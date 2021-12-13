@@ -31,6 +31,62 @@ git clone https://github.com/JaydenDev/freecat
 
 # Contributors
 
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/JaydenDev>
+            <img src=https://avatars.githubusercontent.com/u/92550746?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=JaydenDev/>
+            <br />
+            <sub style="font-size:14px"><b>JaydenDev</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/hello-smile6>
+            <img src=https://avatars.githubusercontent.com/u/73048226?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=hello-smile6/>
+            <br />
+            <sub style="font-size:14px"><b>hello-smile6</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/webdev03>
+            <img src=https://avatars.githubusercontent.com/u/75148774?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=webdev03/>
+            <br />
+            <sub style="font-size:14px"><b>webdev03</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ninjamar>
+            <img src=https://avatars.githubusercontent.com/u/70116773?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ninjamar/>
+            <br />
+            <sub style="font-size:14px"><b>ninjamar</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ScolderCreations>
+            <img src=https://avatars.githubusercontent.com/u/69083943?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Scolder/>
+            <br />
+            <sub style="font-size:14px"><b>Scolder</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/MystPi>
+            <img src=https://avatars.githubusercontent.com/u/86574651?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=MystPi/>
+            <br />
+            <sub style="font-size:14px"><b>MystPi</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/kccuber-scratch>
+            <img src=https://avatars.githubusercontent.com/u/92891642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=kccuber/>
+            <br />
+            <sub style="font-size:14px"><b>kccuber</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
+
 <a href="https://github.com/hello-smile6">@hello-smile6</a> - For the improved User Interface and numerous random but useful commits \
 <a href="https://github.com/webdev03">@webdev03</a> - For bug fixes, features, the icon, and suggesting the use of webviews \
 <a href="https://github.com/ScolderCreations">@ScolderCreations</a> - For bug fixes<!-- This is kinda ironic, considering how many bugs they added --> and suggestions
