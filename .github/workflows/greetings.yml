@@ -12,5 +12,5 @@ jobs:
       - uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Thanks for helping make Freecat the best Electron browser."
-          pr-message: "Let's hope this one goes through!"
+          issue-message: "Thank you for your contribution to the FreeCat project."
+          pr-message: "Alright, lets take this PR for a spin!"
