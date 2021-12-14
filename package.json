@@ -1,6 +1,6 @@
 {
   "name": "freecat",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Freecat Adapted Electron Application",
   "main": "main/main.js",
   "scripts": {
