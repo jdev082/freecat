@@ -7,6 +7,9 @@
     "start": "electron .",
     "package": "electron-forge package",
     "make": "electron-forge make"
+    "check": "prettier --check .",
+    "format": "prettier --write .",
+    "eslint": "eslint ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
