@@ -76,19 +76,19 @@ git clone https://github.com/JaydenDev/freecat
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/MystPi>
-            <img src=https://avatars.githubusercontent.com/u/86574651?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=MystPi/>
+        <a href=https://github.com/kccuber-scratch>
+            <img src=https://avatars.githubusercontent.com/u/92891642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=kccuber/>
             <br />
-            <sub style="font-size:14px"><b>MystPi</b></sub>
+            <sub style="font-size:14px"><b>kccuber</b></sub>
         </a>
     </td>
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/kccuber-scratch>
-            <img src=https://avatars.githubusercontent.com/u/92891642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=kccuber/>
+        <a href=https://github.com/MystPi>
+            <img src=https://avatars.githubusercontent.com/u/86574651?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=MystPi/>
             <br />
-            <sub style="font-size:14px"><b>kccuber</b></sub>
+            <sub style="font-size:14px"><b>MystPi</b></sub>
         </a>
     </td>
 </tr>
