@@ -41,6 +41,29 @@ git clone https://github.com/JaydenDev/freecat
 <table>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 71385e9 (Unstable (#81))
+
+        <a href=https://github.com/hello-smile6>
+            <img src=https://avatars.githubusercontent.com/u/73048226?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=hello-smile6/>
+            <br />
+            <sub style="font-size:14px"><b>hello-smile6</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/JaydenDev>
+            <img src=https://avatars.githubusercontent.com/u/92550746?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=JaydenDev/>
+            <br />
+            <sub style="font-size:14px"><b>JaydenDev</b></sub>
+
+> > > > > > > parent of 71385e9 (Unstable (#81))
+
+>>>>>>> parent of b97701c (Revert to release 1.0)
         <a href=https://github.com/JaydenDev>
             <img src=https://avatars.githubusercontent.com/u/92550746?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=JaydenDev/>
             <br />
@@ -76,6 +99,7 @@ git clone https://github.com/JaydenDev/freecat
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+<<<<<<< HEAD
         <a href=https://github.com/kccuber-scratch>
             <img src=https://avatars.githubusercontent.com/u/92891642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=kccuber/>
             <br />
@@ -89,6 +113,22 @@ git clone https://github.com/JaydenDev/freecat
             <img src=https://avatars.githubusercontent.com/u/86574651?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=MystPi/>
             <br />
             <sub style="font-size:14px"><b>MystPi</b></sub>
+=======
+        <a href=https://github.com/MystPi>
+            <img src=https://avatars.githubusercontent.com/u/86574651?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=MystPi/>
+            <br />
+            <sub style="font-size:14px"><b>MystPi</b></sub>
+        </a>
+    </td>
+
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/kccuber-scratch>
+            <img src=https://avatars.githubusercontent.com/u/92891642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=kccuber/>
+            <br />
+            <sub style="font-size:14px"><b>kccuber</b></sub>
+>>>>>>> parent of b97701c (Revert to release 1.0)
         </a>
     </td>
 </tr>
