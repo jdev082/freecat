@@ -62,6 +62,13 @@ git clone https://github.com/JaydenDev/freecat
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/kccuber-scratch>
+            <img src=https://avatars.githubusercontent.com/u/92891642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=kccuber/>
+            <br />
+            <sub style="font-size:14px"><b>kccuber</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/ninjamar>
             <img src=https://avatars.githubusercontent.com/u/70116773?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ninjamar/>
             <br />
@@ -73,13 +80,6 @@ git clone https://github.com/JaydenDev/freecat
             <img src=https://avatars.githubusercontent.com/u/69083943?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Scolder/>
             <br />
             <sub style="font-size:14px"><b>Scolder</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/kccuber-scratch>
-            <img src=https://avatars.githubusercontent.com/u/92891642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=kccuber/>
-            <br />
-            <sub style="font-size:14px"><b>kccuber</b></sub>
         </a>
     </td>
 </tr>
