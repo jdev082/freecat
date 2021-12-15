@@ -4,7 +4,7 @@
   "description": "Freecat Adapted Electron Application",
   "main": "main/main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "check": "prettier --check .",
@@ -30,11 +30,10 @@
     "eslint": "^8.4.1",
     "eslint-config-prettier": "^8.3.0",
     "prettier": "2.5.1"
-    "electron-prebuilt-compile": "1.8.2"
   },
   "dependencies": {
-    "font-awesome": "^1.0.0",
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "font-awesome": "^4.7.0"
   },
   "config": {
     "forge": {
