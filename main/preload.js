@@ -2,13 +2,11 @@
 // It has the same sandbox as a Chrome extension.
 window.addEventListener("DOMContentLoaded", () => {
   const replaceText = (selector, text) => {
-    const element = document.getElementById(selector);
-    if (element) element.innerText = text;
-  };
+    const element = document.getElementById(selector)
+    if (element) element.innerText = text
+  }
 
   for (const type of ["chrome", "node", "electron"]) {
-    replaceText(`${type}-version`, process.versions[type]);
+    replaceText(`${type}-version`, process.versions[type])
   }
-});
-const path=require("path");
-document.body.homepageUrl=path.join(__dirname,"../home.html");
+})

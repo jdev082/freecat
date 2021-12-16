@@ -9,8 +9,7 @@
     "make": "electron-forge make",
     "check": "prettier --check .",
     "format": "prettier --write .",
-    "eslint": "eslint .",
-    "update-deps": "curl https://cdn.jsdelivr.net/gh/MystPi/dreamcss/src/dream.css --output dream.css"
+    "eslint": "eslint ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
