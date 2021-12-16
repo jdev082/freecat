@@ -9,7 +9,12 @@ const loadPage = function () {
     document.getElementById("view").src=homepageUrl;
   }
   else if(wsite.startsWith("freecat:settings")) {
-    document.getElementById("view").src=settingsUrl.concat(wsite.split(settingsUrl)[1]);
+    if(wsite=="freecat:settings") {
+      webview.src=settingsUrl;
+    }
+    else {
+      document.getElementById("view").src=settingsUrl.concat(wsite.split(settingsUrl)[1]);
+    }
   }
   else if(!(wsite.startsWith("https://") || wsite.startsWith("file://") || wsite.startsWith("http://"))) {
     document.getElementById("view").src=localStorage.searchProvider.replace("%s",encodeURIComponent(wsite));
@@ -63,5 +68,16 @@ let search = document.getElementById("searchbox");
 webview.addEventListener("did-stop-loading", () => {
   if (document.activeElement !== search) {
     search.value = webview.src;
+    if(webview.src==homepageUrl) {
+      search.value="freecat:homepage";
+    }
+    if(webview.src.startsWith(settingsUrl)) {
+      if(webview.src==settingsUrl) {
+        search.value="freecat:settings";
+      }
+      else {
+        search.value="freecat:settings".concat(webview.src.split(settingsUrl)[1]);
+      }
+    }
   }
 });
