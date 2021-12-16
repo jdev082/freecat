@@ -12,6 +12,9 @@
   </head>
   <body>
     <nav>
+      <button id="back" class="fa fa-chevron-left"></button>
+      <button id="forward" class="fa fa-chevron-right"></button>
+      <button id="refresh" class="fa fa-refresh"></button>
       <input
         placeholder="Type URL"
         id="searchbox"
@@ -19,6 +22,8 @@
         type="url"
       />
       <button id="load" class="fa fa-search"></button>
+      <button id="settings" class="fa fa-cog"></button>
+      <button id="inspect" class="fa fa-terminal"></button>
     </nav>
     <webview id="view" src="home.html"></webview>
     <script src="js/dynamic.js"></script>
