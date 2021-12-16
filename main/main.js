@@ -17,8 +17,7 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: {
-      // Not used.
-      // preload: path.join(__dirname, "preload.js"),
+      preload: path.join(__dirname, "preload.js"),
       webviewTag: true,
     },
   });
@@ -46,6 +45,14 @@ app.on("activate", function () {
 app.on("window-all-closed", function () {
   if (process.platform !== "darwin") {
     app.quit();
+  }
+});
+// Taken from ninetails :)
+app.on('web-contents-created', function (event, contents) {
+  if (contents.getType() === 'webview') {
+    contents.setWindowOpenHandler(function (newWindowEvent) {
+      newWindowEvent.preventDefault();
+    });
   }
 });
 

@@ -10,3 +10,5 @@ window.addEventListener("DOMContentLoaded", () => {
     replaceText(`${type}-version`, process.versions[type]);
   }
 });
+const path=require("path");
+document.body.homepageUrl=path.join(__dirname,"../home.html");
