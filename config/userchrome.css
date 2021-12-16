@@ -26,6 +26,8 @@ nav {
   box-sizing: border-box;
   display: block !important;
   float: left;
+  border-color: purple;
+  outline-color: white;
 }
 #load {
   width: var(--app-url-bar-size) !important;
@@ -52,7 +54,8 @@ webview {
   border: none;
   border-width: 0px;
 }
-/* 
+
+/*
 input {
 	padding: 4pt;
 	background-color: white;
@@ -66,6 +69,7 @@ button {
 	color: black;
 	width: 100%;
 } */
+
 td,
 tr {
   background-color: #0e0e0e;
