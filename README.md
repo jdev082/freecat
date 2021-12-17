@@ -93,10 +93,10 @@ Test PRs before asking for merging
 Abuse your powers \
 Make unwanted changes \
 Make changes without permission
+
 ### Do:
 Ask before merging PRs
-# Clean your code
-First, run `npm run check`. To confirm that formatting is needed. Then run `npm run format` in your shell to format your code. It will automatically commit, and your clean sleek code will be submitted.
+
 # Release Progress
 ![progress](https://progress-bar.dev/75/?title=2.0)
 ![progresss](https://progress-bar.dev/0/?title=3.0)
