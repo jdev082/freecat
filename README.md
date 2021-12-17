@@ -124,5 +124,5 @@ First, run `npm run check`. To confirm that formatting is needed. Then run `npm 
 
 # Release Progress
 
-![progress](https://progress-bar.dev/85/?title=2.0)
+![progress](https://progress-bar.dev/75/?title=2.0)
 ![progresss](https://progress-bar.dev/0/?title=3.0)
