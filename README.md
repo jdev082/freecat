@@ -87,6 +87,7 @@ Messing around with PRs
 Name PRs properly \
 Test PRs before asking for merging
 # Collaborators
+
 ### Don't:
 Abuse your powers \
 Make unwanted changes \
