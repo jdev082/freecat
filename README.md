@@ -24,6 +24,7 @@ Test the rolling constant channel by doing:
 git clone https://github.com/JaydenDev/freecat
 ```
 # Contributors
+
 <table>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
