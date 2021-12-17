@@ -80,6 +80,7 @@ git clone https://github.com/JaydenDev/freecat
 </tr>
 </table>
 # Contributing
+
 ### Don't:
 Malicious Code \
 Messing around with PRs
