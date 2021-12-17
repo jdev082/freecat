@@ -79,6 +79,7 @@ git clone https://github.com/JaydenDev/freecat
     </td>
 </tr>
 </table>
+
 # Contributing
 
 ### Don't:
