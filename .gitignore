@@ -7,3 +7,6 @@ app/out/*
 .Spotlight-V100
 env.css # this is so that any updates to the users config does not affect pull requests
 app/config/env.css # just in case
+app # This is so anyone with an outdated fork doesn't cause problems
+.prettierrc # Let's not end up with prettier again.
+.prettier* # Let's not allow anything related to it, just to be safe
