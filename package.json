@@ -1,13 +1,15 @@
 {
   "name": "freecat",
-  "version": "2.0.0-dev-prerelease",
+  "version": "1.0.0",
   "description": "Freecat Adapted Electron Application",
   "main": "main/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "update-deps": "curl https://cdn.jsdelivr.net/gh/MystPi/dreamcss/src/dream.css --output dream.css"
+    "check": "prettier --check .",
+    "format": "prettier --write .",
+    "eslint": "eslint ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [

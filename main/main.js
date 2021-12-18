@@ -1,6 +1,5 @@
 // Modules to control application life and create native browser window
-const { app, BrowserWindow } = require("electron");
-const { join } = require("path");
+const { app, BrowserWindow } = require("electron")
 const path = require("path")
 // const displays = require("displays")();
 function createWindow() {
@@ -21,10 +20,10 @@ function createWindow() {
       preload: path.join(__dirname, "preload.js"),
       webviewTag: true,
     },
-  });
+  })
 
   // and load the index.html of the app.
-  mainWindow.loadURL(path.join(__dirname,"../index.html"));
+  mainWindow.loadFile("./index.html")
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
@@ -33,7 +32,7 @@ function createWindow() {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.on("ready", () => {
+app.whenReady().then(() => {
   createWindow()
 
   app.on("activate", function () {
